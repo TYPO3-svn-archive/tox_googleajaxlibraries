@@ -1,0 +1,16 @@
+plugin {
+	tx_toxgoogleajaxlibraries_pi1 = USER
+	tx_toxgoogleajaxlibraries_pi1 {
+		googleapikey	= {$config.tox_googleajaxlibraries.googleapikey}
+		jquery			= {$config.tox_googleajaxlibraries.jquery}
+		jqueryui		= {$config.tox_googleajaxlibraries.jqueryui}
+		prototype		= {$config.tox_googleajaxlibraries.prototype}
+		scriptaculous	= {$config.tox_googleajaxlibraries.scriptaculous}
+		mootools		= {$config.tox_googleajaxlibraries.mootools}
+		dojo			= {$config.tox_googleajaxlibraries.dojo}
+		swfobject		= {$config.tox_googleajaxlibraries.swfobject}
+		yui				= {$config.tox_googleajaxlibraries.yui}
+		ext-core		= {$config.tox_googleajaxlibraries.ext-core}
+		userFunc		= tx_toxgoogleajaxlibraries_pi1->main
+	}
+}

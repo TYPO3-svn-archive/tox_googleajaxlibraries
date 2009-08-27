@@ -1,0 +1,31 @@
+config.tox_googleajaxlibraries {
+	# cat=tox-googleajaxlibraries/enable/a; type=string; label=Google-API-Key:Wenn kein API-Key vorhanden ist, dann kann man selbigen hier kostenfrei bekommen: http://code.google.com/intl/de-DE/apis/ajaxsearch/signup.html
+	googleapikey = 
+
+	# cat=tox-googleajaxlibraries/enable/b; type=options[No=0, 1.2.3=1.2.3, 1.2.6=1.2.6, 1.3.0=1.3.0, 1.3.1=1.3.1, 1.3.2=1.3.2]; label=jQuery:Include the lib via google
+	jquery = 0
+	
+	# cat=tox-googleajaxlibraries/enable/c; type=options[No=0, 1.5.2=1.5.2, 1.5.3=1.5.3, 1.6=1.6, 1.7.0=1.7.0, 1.7.1=1.7.1, 1.7.2=1.7.2]; label=jQuery UI:Include the lib via google
+	jqueryui = 0
+	
+	# cat=tox-googleajaxlibraries/enable/d; type=options[No=0, 1.6.0.2=1.6.0.2, 1.6.0.3=1.6.0.3]; label=Prototype:Include the lib via google
+	prototype = 0
+	
+	# cat=tox-googleajaxlibraries/enable/e; type=options[No=0, 1.8.1=1.8.1, 1.8.2=1.8.2]; label=script.aculo.us:Include the lib via google
+	scriptaculous = 0
+	
+	# cat=tox-googleajaxlibraries/enable/f; type=options[No=0, 1.11=1.11, 1.2.1=1.2.1, 1.2.2=1.2.2, 1.2.3=1.2.3]; label=MooTools:Include the lib via google
+	mootools = 0
+	
+	# cat=tox-googleajaxlibraries/enable/g; type=options[No=0, 1.1.1=1.1.1, 1.2.0=1.2.0, 1.2.3=1.2.3, 1.3.0=1.3.0, 1.3.1=1.3.1, 1.3.2=1.3.2]; label=Dojo:Include the lib via google
+	dojo = 0
+	
+	# cat=tox-googleajaxlibraries/enable/h; type=options[No=0, 2.1=2.1, 2.2=2.2]; label=SWFObject:Include the lib via google
+	swfobject = 0
+	
+	# cat=tox-googleajaxlibraries/enable/i; type=options[No=0, 2.6.0=2.6.0, 2.7.0=2.7.0]; label=Yahoo! User Interface Library (YUI):Include the lib via google
+	yui = 0
+	
+	# cat=tox-googleajaxlibraries/enable/j; type=options[No=0, 3.0.0=3.0.0]; label=Ext Core:Include the lib via google
+	ext-core = 0
+}
